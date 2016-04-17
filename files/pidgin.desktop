@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Exec=pidgin
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=Pidgin
+Name=Pidgin
+Comment[en_US]=Pidgin IM
+Comment=Pidgin IM
+
