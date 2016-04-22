@@ -1,9 +1,11 @@
 mypkgs:
     pkg.installed:
         - pkgs:
-            - debconf-utils
-            - dropbox
+            - audacity
+            - fonts-inconsolata
             - git
+            - handbrake
+            - htop
             - pidgin
             - p7zip-full
             - shutter

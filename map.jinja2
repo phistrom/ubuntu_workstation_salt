@@ -1,0 +1,11 @@
+{%
+    set host_symbol = salt['grains.filter_by']({
+            'alpha': 'α',
+            'mu': 'μ',
+            'phillip-pc': 'ᕈ',
+        },
+        grain='host',
+        default=salt['grains.get']('host')
+    )
+%}
+

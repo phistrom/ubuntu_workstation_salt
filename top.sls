@@ -1,7 +1,9 @@
 base:
     '*':
+        - bash
         - chrome
         - docker
+        - fonts
         - java
         - miscapps
         - pidgin

@@ -2,6 +2,12 @@ python_deps:
     pkg.installed:
         - pkgs:
             - build-essential
+            - lib32z1-dev
+            - libjpeg-dev
+            - libmysqlclient-dev
+            - libpq-dev
+            - libxml2-dev
+            - libxslt1-dev
             - python-pip
             - python3-pip
             - python-dev
@@ -10,8 +16,7 @@ python_deps:
             - python3-virtualenv
             - python-setuptools
             - python3-setuptools
-            - libpq-dev
-            - libmysqlclient-dev
+            - zlib1g-dev
 
 python_modules:
     pip.installed:
