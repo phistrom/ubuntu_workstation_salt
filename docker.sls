@@ -2,7 +2,6 @@
 {% set osver = salt['grains.get']('osrelease_info', [0, 0]) %} {# Ubuntu 14.04 would be [14, 04] #}
 {% set unamer = salt['grains.get']('kernelrelease') %} {# uname -r #}
 
-{# Docker #}
 {% if osver[0] >= 16 %}  {# xenial and above has the docker.io package #}
 docker:
     pkg.installed:
@@ -28,5 +27,12 @@ docker:
         - name: docker-engine
         - refresh: True
 {% endif %}
-{# end of Docker stuff #}
+
+phillip:
+    user.present:
+        - groups:
+            - docker
+        - remove_groups: False
+        - require:
+            - pkg: docker
 

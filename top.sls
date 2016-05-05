@@ -11,6 +11,7 @@ base:
         - pycharm
         - pythondev
         - redis
+        - sshserver
         - spotify
         - symlinks
         - trillian
