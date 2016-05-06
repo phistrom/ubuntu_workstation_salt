@@ -8,4 +8,3 @@
         - name: '/usr/bin/fc-cache -f'
         - watch:
             - file: /usr/local/share/fonts/ttf
-
