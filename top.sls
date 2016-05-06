@@ -15,5 +15,4 @@ base:
         - spotify
         - symlinks
         - trillian
-        - webdev
 
